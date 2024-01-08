@@ -1,0 +1,23 @@
+node_modules
+
+.ionide/
+
+bin/
+obj/
+fablueBuild/
+
+.fake
+
+obj
+bin
+out
+.fable
+fablueBuild/
+.vs
+.ionide
+*.fs.js
+*.fs.js.map
+
+
+# Mac desktop service store files
+.DS_Store

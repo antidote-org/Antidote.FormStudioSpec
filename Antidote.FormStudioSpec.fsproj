@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+        <Version>2.0.2</Version>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Prelude.fs" />
+    <Compile Include="Types.fs" />
+    <!-- FORM SPEC -->
+    <Compile Include="Deprecated/FormSpec_v1.0.0.fs" />
+    <Compile Include="Deprecated/FormSpec_v1.0.1.fs" />
+    <Compile Include="FormSpec_v2/FormSpec_v2.0.0.fs" />
+    <Compile Include="FormSpec_v2/FormSpec_v2.0.1.fs" />
+    <!-- FORM VALUES -->
+    <Compile Include="Deprecated/FormValues_v1.0.1.fs" />
+    <Compile Include="Deprecated/FormValues_v2.0.0.fs" />
+    <Compile Include="FormValues_v2/FormValues_v2.0.1.fs" />
+
+    <Compile Include="FormSpec_v2/Helpers.fs" />
+    <Compile Include="FormValues_v2/ResultExtract.fs" />
+    <Compile Include="FormValues_v2/DynamicFormResultDataJson.fs" />
+    <Compile Include="Migrator.fs" />
+  </ItemGroup>
+  <Import Project=".paket\Paket.Restore.targets" />
+</Project>

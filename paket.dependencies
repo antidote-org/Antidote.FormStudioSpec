@@ -1,0 +1,9 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+
+nuget FSharp.Core
+nuget Fable.Core
+nuget Microsoft.SourceLink.GitHub copy_local: true
+nuget Thoth.Json
+nuget Thoth.Json.Net
