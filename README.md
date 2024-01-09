@@ -25,7 +25,7 @@ paket add Antidote.FormStudioSpec --project /path/to/project.fsproj
 *For maintainers only*
 
 ```ps1
-cd Antidote.uFuzzy
+cd Antidote.FormStudioSpec
 dotnet pack -c Release
 dotnet nuget push .\bin\Release\Antidote.FormStudioSpec.X.X.X.snupkg -s nuget.org -k <nuget_key>
 dotnet nuget push .\bin\Release\Antidote.FormStudioSpec.X.X.X.nupkg -s nuget.org -k <nuget_key>
