@@ -2,12 +2,12 @@ STORAGE: NONE
 NUGET
   remote: https://api.nuget.org/v3/index.json
     Fable.Core (4.2)
-    FSharp.Core (7.0.401)
-    Microsoft.Build.Tasks.Git (1.1.1) - copy_local: true
-    Microsoft.SourceLink.Common (1.1.1) - copy_local: true
-    Microsoft.SourceLink.GitHub (1.1.1) - copy_local: true
-      Microsoft.Build.Tasks.Git (>= 1.1.1)
-      Microsoft.SourceLink.Common (>= 1.1.1)
+    FSharp.Core (8.0.100)
+    Microsoft.Build.Tasks.Git (8.0) - copy_local: true
+    Microsoft.SourceLink.Common (8.0) - copy_local: true
+    Microsoft.SourceLink.GitHub (8.0) - copy_local: true
+      Microsoft.Build.Tasks.Git (>= 8.0)
+      Microsoft.SourceLink.Common (>= 8.0)
     Newtonsoft.Json (13.0.3) - restriction: || (>= net46) (>= netstandard2.0)
     Thoth.Json (10.2)
       Fable.Core (>= 3.6.2) - restriction: >= netstandard2.0
